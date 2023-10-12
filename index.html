@@ -101,7 +101,7 @@
             console.log({ username, password });
             if (username === 'admin' && password === 'admin') {
                 localStorage.setItem('login', 'true');
-                window.location.href = '/docs';
+                window.location.href = '/docsify';
             }
         }
         form.addEventListener('submit', function (event) {
