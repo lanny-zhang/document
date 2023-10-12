@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>大数据平台管理手册</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta charset="UTF-8" />
@@ -12,7 +13,7 @@
         <div id="app"></div>
         <script>
             if (!localStorage.getItem('login')) {
-                window.location.href = '/index.html';
+                window.location.href = '/';
             }
             window.$docsify = {
                 basePath: '/',
@@ -38,6 +39,6 @@
         <script src="/docsify/assets/zoom-image.min.js"></script>
         <script src="/docsify/assets/docsify-darklight-theme.js"></script>
         <script src="/docsify/assets/scroll-to-top.js"></script>
-        <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+        <script src="/docsify/assets/docsify-sidebar-collapse.min.js"></script>
     </body>
 </html>
